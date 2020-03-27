@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     margin: 0;
+    overflow-x: hidden;
     background-color: $colorBackground;
 }
 
@@ -152,9 +153,10 @@
 
     .main-bg {
         height: 50vh;
-        min-height: 200px;
+        min-height: 150px;
         position: absolute;
         left: 50%;
+        width: 100%;
         -webkit-user-drag: none;
         -khtml-user-drag: none;
         -moz-user-drag: none;
@@ -186,21 +188,19 @@
     .cv-button {
         position: absolute;
         left: 50%;
-        bottom: 5%;
+        bottom: 2%;
         transform: translate(-50%, 0);
         background: $colorDark;
         border: none;
         border-radius: 10vh;
         width: 30vh;
         height: auto;
-        font-size: 2.8vh;
-        line-height: 4.5vh;
+        font-size: 2.5vh;
+        line-height: 4vh;
         color: #E5F9F6;
         text-align: center;
         display: flex;
         justify-content: center;
-        padding-left: 1.5vh;
-        padding-right: 1vh;
         -webkit-user-select: none;
         -khtml-user-select: none;
         -moz-user-select: none;
@@ -210,6 +210,10 @@
     }
 
 
+    .ic-resume {
+        width: 4vh;
+        margin-left: 2vh;
+    }
 
 
 }

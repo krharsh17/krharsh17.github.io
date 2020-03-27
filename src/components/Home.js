@@ -35,7 +35,9 @@ const Home = () => {
                 window.open('https://drive.google.com/open?id=1NC3cLCaLZ_m-lKh6DsHhFFtkrVO7Xm_L');
             }}>
                 View My Resume
-                <img src={icon} alt='Go' className="ic-resume" />
+                <img src={icon} alt='Go' className="ic-resume" onContextMenu={(e) => {
+                    e.preventDefault()
+                }} />
             </div>
         </div>
     );
