@@ -1,0 +1,26 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  background-color: $colorBackground;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $colorDark;
+  border-radius: 20px;;
+}
+
+.App{
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
