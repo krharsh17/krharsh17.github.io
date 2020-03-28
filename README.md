@@ -1,3 +1,7 @@
+# My Personal Website!
+
+This website was built using ReactJS. `develop` branch contains the source code, while `master` contains the latest build.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
