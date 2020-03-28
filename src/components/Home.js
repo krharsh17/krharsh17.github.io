@@ -4,16 +4,16 @@ import icon from '../assets/images/ic-resume.svg';
 import Typical from 'react-typical';
 
 const bio = [
-    'I am an android developer', 1000,
-    'I am a student', 1000,
-    'I am a MERN Stack developer', 1000,
-    'I am a gamer', 1000,
-    'I am a UI designer', 1000,
-    'I am a mentor', 1000,
-    'I am an open source fanatic', 1000,
-    'I am a javaphile', 1000,
-    'I am a data science enthusiast', 1000,
-    'I am a dog lover', 1000,
+    'I am an android developer.', 1000,
+    'I am a student.', 1000,
+    'I am a MERN Stack developer.', 1000,
+    'I am a gamer.', 1000,
+    'I am a UI designer.', 1000,
+    'I am a mentor.', 1000,
+    'I am an open source fanatic.', 1000,
+    'I am a javaphile.', 1000,
+    'I am a data science enthusiast.', 1000,
+    'I am a dog lover.', 1000,
 ]
 
 const Home = () => {

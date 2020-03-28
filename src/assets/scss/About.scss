@@ -1,0 +1,115 @@
+.About {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255,255,255,.8)), url('../images/dog-pattern.jpg');
+    background-size: 500px;
+    // background-color: $colorDark;
+    justify-content: center;
+}
+
+.About-Container{
+    display: flex;
+    align-items: baseline;
+    width: auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.Col-1{
+    margin: 4px;
+    width: 40vh;
+    display: inline-block;
+    height: auto;
+    align-self: center;
+}
+
+.Col-2{
+    width: 80vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: lighter;
+    padding-left: 6vh;
+    padding-right: 6vh;
+}
+
+.Profile-Photo{
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid #CCC;
+    outline-offset: 3px;
+}
+
+.About-Me-1{
+    font-size: 6vh;
+    color: $colorDark;
+}
+
+.About-Me-2{
+    font-size: 4.5vh;
+    margin-top: 2vh;
+    color: $colorDark;
+}
+
+.About-Me-3{
+    font-size: 2.5vh;
+    color: $colorDark;
+    margin-top: 1vh;
+}
+
+.Name{
+    color: $colorPrimary;
+}
+
+@media only screen and (max-width: 133vh) {
+
+    .About-Container{
+        display: flex;
+        align-items: baseline;
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 80vh){
+
+    .Col-1{
+        margin: 4px;
+        width: 30vh;
+        display: inline-block;
+        height: auto;
+        align-self: center;
+    }
+
+    .Col-2{
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 4vh;
+        padding-right: 4vh;
+    }
+
+    .About-Me-1{
+        font-size: 5.5vh;
+        color: $colorDark;
+    }
+    
+    .About-Me-2{
+        font-size: 3.6vh;
+        color: $colorDark;
+    }
+    
+    .About-Me-3{
+        font-size: 2.2vh;
+        color: $colorDark;
+    }
+
+}

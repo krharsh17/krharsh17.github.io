@@ -1,0 +1,17 @@
+.Navigation{
+    border-bottom: 1px solid #cacaca;
+    width: 100%;
+    background-color: $colorBackground;
+    color: $colorDark;
+    z-index: 200;
+    height: 10vh;
+}
+
+.Navbar-Collapse{
+    background-color: $colorBackground;
+    width: 100%;
+}
+
+.Nav-Link{
+    color: red;
+}
