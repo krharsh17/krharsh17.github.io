@@ -1,0 +1,46 @@
+.Footer{
+    width: 100vw;
+    height: auto;
+    background-color: $colorDark;
+    color: $colorBackground;
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 12px;
+    font-size: 24px;
+}
+
+.Links{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Link{
+    width: 32px;
+    height: 32px;
+    margin: 12px;
+}
+
+.Copyright{
+    margin-top: 16px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px){
+    .Link{
+        width: 24px;
+        height: 24px;
+        margin: 8px;
+    }
+
+    .Footer{
+        padding-bottom: 16px;
+    }
+
+    .Links{
+        margin-top: 8px;
+    }
+}

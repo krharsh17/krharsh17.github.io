@@ -1,0 +1,108 @@
+.Community {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: $colorBackground;
+}
+
+.Community-Header {
+    font-size: 5.5vh;
+    color: $colorDark;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.Carousel-Element {
+    height: 65vh;
+    width: 70vw;
+    background-color: $colorBackground;
+
+    &:hover {
+        .Carousel-Element-Title {
+            opacity: 100%;
+        }
+    }
+}
+
+.Community-Carousel {
+
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.legend {
+    background-color: $colorDark;
+}
+
+.Carousel-Element-Title {
+    position: absolute;
+    color: $colorBackground;
+    background-color: $colorDark;
+    left: 50%;
+    bottom: 40px;
+    width: 90%;
+    height: 40px;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 8px;
+    transform: translateX(-50%);
+    opacity: 20%;
+    transition-duration: 0.4s;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Community {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        overflow: hidden;
+        background-color: $colorBackground;
+    }
+
+    .Carousel-Element {
+        height: 20vh;
+        width: 80vw;
+        background-color: $colorBackground;
+
+        &:hover {
+            .Carousel-Element-Title {
+                opacity: 100%;
+            }
+        }
+    }
+
+    .Community-Header {
+        font-size: 5.5vh;
+        color: $colorDark;
+        text-align: center;
+        margin-top: 8vh;
+        margin-bottom: 2vh;
+    }
+
+
+    .Community-Carousel {
+        margin-top: 10vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    .Carousel-Element-Title {
+        position: absolute;
+        color: $colorBackground;
+        background-color: $colorDark;
+        left: 50%;
+        bottom: 4px;
+        width: 90%;
+        height: auto;
+        padding: 12px;
+        font-size: 12px;
+        border-radius: 8px;
+        transform: translateX(-50%);
+        opacity: 20%;
+        transition-duration: 0.4s;
+    }
+
+}

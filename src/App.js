@@ -4,7 +4,8 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 import Loader from './components/Loader';
 import WIP from './components/WIP';
-
+import Community from './components/Community';
+import Footer from './components/Footer';
 
 class App extends React.Component{
   constructor(props){
@@ -24,6 +25,8 @@ class App extends React.Component{
           <Home />
           <About />
           <WIP />
+          <Community />
+          <Footer />
         </div>
         <Loader ref={this.loader} />
       </div>
