@@ -1,0 +1,42 @@
+.Freelancer-Stripe{
+    width: 100vw;
+    height: 175px;
+    /* The image used */
+    background-image: url('./../images/freelancer.jpg');
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: linear-gradient(red, yellow);
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: $colorBackground;
+    font-size: 32px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 500;
+}
+
+.Hire-Me-Btn{
+    width: 125px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: #00000000;
+    border-radius: 4px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: $colorBackground;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+
+    &:hover{
+        background-color: $colorBackground;
+        color: $colorDark;
+        font-weight: 700;
+    }
+}

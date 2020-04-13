@@ -32,7 +32,7 @@ const Home = () => {
             </div>
 
             <div className='cv-button' onClick={() => {
-                window.open('https://drive.google.com/open?id=1NC3cLCaLZ_m-lKh6DsHhFFtkrVO7Xm_L');
+                window.open('https://drive.google.com/file/d/1fdfYbLBzPXN2dL7slD5ZWQJEnZ2spq6_/view');
             }}>
                 View My Resume
                 <img src={icon} alt='Go' className="ic-resume" onContextMenu={(e) => {

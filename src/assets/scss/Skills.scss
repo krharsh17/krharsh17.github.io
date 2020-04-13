@@ -1,0 +1,93 @@
+.Skills{
+    background-color: $colorBackground;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.Skills-Header{
+    font-size: 5.5vh;
+    color: $colorDark;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.Skills-Subheader{
+    font-size: 2.5vh;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $colorPrimary;
+}
+
+.Skills-Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 250px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 16px;
+    color: $colorDark;
+    text-align: center;
+
+    &:hover{
+        .Skill-Seperator{
+            width: 100px;
+        }
+    }
+}
+
+.Skill-Icon{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+.Skill-Title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 4px;
+}
+
+.Skill-Seperator{
+    width: 75px;
+    height: 2px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    background-color: $colorPrimary;
+    transition-duration: 0.4s;
+}
+
+.Skill-Description{
+    font-size: 14px;
+    margin: 8px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 1200px){
+    .Skill{
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .Skill{
+        width: 80vw;
+    }
+}

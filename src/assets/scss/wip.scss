@@ -4,6 +4,7 @@
     left: 50%;
     width: 100%;
     transform: translate(-50%);
+    background-color: $colorBackground;
 }
 
 @media only screen and (max-width: 600px) {
