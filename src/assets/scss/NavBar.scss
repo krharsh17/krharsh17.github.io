@@ -1,17 +1,32 @@
 .Navigation{
-    border-bottom: 1px solid #cacaca;
-    width: 100%;
-    background-color: $colorBackground;
-    color: $colorDark;
-    z-index: 200;
-    height: 10vh;
+    position: fixed;
+    left: -200px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition-duration: 0.4s;
+
+    &:hover,
+    &:active{
+        left: 0px;
+    }
+
+
 }
 
-.Navbar-Collapse{
+.NavBar{
+    width: 200px;
+    height: 200px;
     background-color: $colorBackground;
-    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
-.Nav-Link{
-    color: red;
+.NavIcon{
+    width: 100px;
 }

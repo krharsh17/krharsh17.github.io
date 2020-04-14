@@ -1,0 +1,47 @@
+.TechnicalSkills{
+    background-color: $colorBackground;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.TechnicalSkills-Header{
+    font-size: 5.5vh;
+    color: $colorDark;
+    text-align: center;
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.TechnicalSkills-Subheader{
+    font-size: 2.5vh;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $colorPrimary;
+}
+
+.TechnicalSkills-Row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.TechnicalSkills-Col{
+    width: 600px;
+}
+
+.TechnicalSkill{
+    padding: 8px;
+    margin: 12px;
+}
+
+.TechnicalSkill-Bar-BG{
+    border: 1px solid $colorDark;
+}
+
+.TechnicalSkill-Bar{
+    background-color: $colorDark;
+}
