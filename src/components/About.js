@@ -1,7 +1,5 @@
 import React from 'react';
 
-const bio=' \n\n';
-
 const About = () => {
     return(
         <div className='About'>

@@ -8,15 +8,18 @@ import Community from './components/Community';
 import Footer from './components/Footer';
 import Freelancer from './components/Freelancer';
 import Skills from './components/Skills';
+import firebase from './Firebase';
+import OnImagesLoaded from 'react-on-images-loaded';
 
 class App extends React.Component{
   constructor(props){
     super(props);
     this.contact = React.createRef();
     this.loader = React.createRef();
+    firebase.analytics();
   }
 
-  componentDidMount(){
+  finishLoading(){
     this.loader.current.completeLoading();
   }
 
@@ -29,12 +32,17 @@ class App extends React.Component{
       <div className="App">
         {/* <NavBar /> */}
         <div className="theme-light">
-          <Home />
-          <About />
-          <Skills />
-          <Freelancer target={this.scrollToFooter}/>
-          <Community />
-          <Footer ref={this.contact} />
+          <OnImagesLoaded
+            onLoaded={this.finishLoading.bind(this)}
+            onTimeout={this.finishLoading.bind(this)}
+            timeout={7000}>
+            <Home />
+            <About />
+            <Skills />
+            <Freelancer target={this.scrollToFooter}/>
+            <Community />
+            <Footer ref={this.contact} />
+          </OnImagesLoaded>
         </div>
         <Loader ref={this.loader} />
       </div>
