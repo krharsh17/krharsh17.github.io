@@ -4,7 +4,8 @@ import icon from '../assets/images/ic-resume.svg';
 import Typical from 'react-typical';
 
 const bio = [
-    'I am an android developer.', 1000,
+    'I am a mobile developer.', 1000,
+    'I am an AWS Educate Student Ambassador.', 1000,
     'I am a student.', 1000,
     'I am a MERN Stack developer.', 1000,
     'I am a gamer.', 1000,

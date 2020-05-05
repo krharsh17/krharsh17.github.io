@@ -18,7 +18,7 @@ const About = () => {
                         Being a tech-enthusiast, I love to explore new technologies and leverage them to solve real-life problems. I am a detail-oriented developer with diverse experience in developing web applications, hybrid & native mobile apps and cloud computing solutions.
                         </p>
                         <p>
-                        I am a campus leader at HackSlash and I’m driven by the will to create an impact and encourage diversity in communities.
+                        I am a campus leader at <a href={'https://www.hackslash.club'}>HackSlash</a> and I’m driven by the will to create an impact and encourage diversity in communities.
                         </p>
                     </div>
                 </div>
