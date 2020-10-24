@@ -3,23 +3,26 @@ import ReactDOM from 'react-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Loader from './components/Loader';
-// import Navig from './components/NavBar';
 import Community from './components/Community';
 import Footer from './components/Footer';
 import Freelancer from './components/Freelancer';
 import Skills from './components/Skills';
-import firebase from './Firebase';
 import TechnicalSkills from './components/TechnicalSkills';
 import OnImagesLoaded from 'react-on-images-loaded';
 import PageProgress from './components/PageProgress';
+import {initFirebase} from "./components/initFirebase";
 
 class App extends React.Component{
   constructor(props){
+    initFirebase().then(firebase => {
+      console.log(firebase)
+      firebase.analytics()
+    })
+
     super(props);
     this.contact = React.createRef();
     this.loader = React.createRef();
     this.app = React.createRef();
-    firebase.analytics();
     this.state={
       scroll: '0%'
     }
